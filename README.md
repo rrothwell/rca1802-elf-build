@@ -7,7 +7,7 @@ Record the construction of an COSMAC ELF clone. Install a monitor, BASIC and for
 ## Introduction
 
 The design chosen was created by Tor-Eirik Lunde, using the design files published on [github](https://github.com/tebl/RC1802-Cosmac-ELF). 
-The PCB's were ordered via th shared community projects on PCBWay for the [CPU PCB](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__CPU_module_revision_E_.html?inviteid=88707), [UI PCB](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__UI_module_revision_E_.html?inviteid=88707) and {Backplnae PCB}(https://www.pcbway.com/project/shareproject/RC6502_Apple_1_Replica__Backplane_module_revision_A_.html).
+The PCB's were ordered via th shared community projects on PCBWay for the [CPU PCB](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__CPU_module_revision_E_.html?inviteid=88707), [UI PCB](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__UI_module_revision_E_.html?inviteid=88707) and [Backplnae PCB](https://www.pcbway.com/project/shareproject/RC6502_Apple_1_Replica__Backplane_module_revision_A_.html).
 
 Many of the IC's were purchased via a kit sold on eBay.
 ## Assembly
