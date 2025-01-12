@@ -2,7 +2,7 @@
 
 ## Scope
 
-Record the construction of an ELF clone. Install a monitor, BASIC and forth in EPROM.
+Record the construction of an COSMAC ELF clone. Install a monitor, BASIC and forth in EPROM.
 
 ## Introduction
 
