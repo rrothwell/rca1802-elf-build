@@ -15,7 +15,7 @@ Many of the IC's were purchased via a kit sold on eBay. The kit is no longer ava
 
 ### CPU PCB
 
-The CPU board is asembled with minor variations to allow for component availablity. In particlar the rectangular 1MHz oscilattor can was substituted with a square can version by mutilating some turned pin strip and bridging the pins underneath with soldered fine wire. 
+The CPU board is asembled with minor variations to allow for component availablity. In particlar the rectangular 1MHz oscillator can was substituted with a square can version by mutilating some turned pin strip and bridging the pins underneath with soldered fine wire. 
 ![oscillator can mod](https://github.com/user-attachments/assets/b8bdb12a-2c62-495b-834b-8651e8762d8e)
 
 Power was supplied via a common USB to serial converter. Ensure the jumper on the convert is set to supply 5V. The board volatege should be measured to be around 4.9 volts.
