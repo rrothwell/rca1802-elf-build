@@ -33,6 +33,6 @@ The USB to serial converter was setup with 4 lines, Gnd, Rx, Tx and Vcc. The Rx 
 
 ![CDP1802 serial connection](https://github.com/user-attachments/assets/dbf6cce9-fa8b-4102-9c05-0792b4163a77)
 
+The serial jupers were set for Rx non-invert (EF), Tx invert (/Q)and Rx_select = EF3.
 
-
-JThe serial upers were set for Rx non-invert, Tx invbert and Rx_select = 
+![Serial signal jumpers](https://github.com/user-attachments/assets/c72e4d6e-070c-4ffa-8966-7027a7afdc20)
