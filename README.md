@@ -9,12 +9,14 @@ Record the construction of an COSMAC ELF clone. Install a monitor, BASIC and for
 The design chosen was created by Tor-Eirik Lunde. I referred to the design files published on [github](https://github.com/tebl/RC1802-Cosmac-ELF). 
 The PCB's were ordered via th shared community projects on PCBWay for the [CPU PCB](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__CPU_module_revision_E_.html?inviteid=88707), [UI PCB](https://www.pcbway.com/project/shareproject/RC1802_Cosmac_ELF__UI_module_revision_E_.html?inviteid=88707) and [Backplnae PCB](https://www.pcbway.com/project/shareproject/RC6502_Apple_1_Replica__Backplane_module_revision_A_.html).
 
-Many of the IC's were purchased via a kit sold on eBay.
+Many of the IC's were purchased via a kit sold on eBay. The kit is no longer available as far as I can tell, though individual components can be found.
+
 ## Assembly
 
 ### CPU PCB
 
 The CPU board is asembled with minor variations to allow for component availablity. In particlar the rectangular 1MHz oscilattor can was substituted with a square can version by mutilating some turned pin strip and bridging the pins underneath with soldered fine wire. 
+![oscillator can mod](https://github.com/user-attachments/assets/b8bdb12a-2c62-495b-834b-8651e8762d8e)
 
 Power was supplied via a common USB to serial converter. Ensure the jumper on the convert is set to supply 5V. The board volatege should be measured to be around 4.9 volts.
 
