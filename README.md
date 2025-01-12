@@ -20,7 +20,10 @@ The CPU board is asembled with minor variations to allow for component availabli
 
 Power was supplied via a common USB to serial converter. Ensure the jumper on the convert is set to supply 5V. The board volatege should be measured to be around 4.9 volts.
 
-The main puzzle was getting the various jumpers set correcly for memory locations and serial communications.
+The main puzzle was getting the various jumpers set correcly for memory locations and serial communications. The memory map arbitrarily assigned the EPROM to slot 1 (nearest the CDP1802 chip) and the RAM to slot 2. The EPROM had write enable disabled (slot 1 WE), while the RAM has write enable enabled (slot 2 WE).
+
+![memory map](https://github.com/user-attachments/assets/46a9924d-6826-4a16-9c2e-f648abba5d77)
+
 
 ### CPU Testing
 
@@ -36,3 +39,4 @@ The USB to serial converter was setup with 4 lines, Gnd, Rx, Tx and Vcc. The Rx 
 The serial signal configuration jumpers were set for Rx non-invert (EF3), Tx invert (/Q)and Rx_select = EF3.
 
 ![Serial signal jumpers](https://github.com/user-attachments/assets/c72e4d6e-070c-4ffa-8966-7027a7afdc20)
+
