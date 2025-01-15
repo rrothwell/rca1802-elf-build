@@ -27,6 +27,28 @@ The main puzzle was getting the various jumpers set correcly for memory location
 
 ### CPU Testing
 
+For these tests to work, the /CLEAR pin on the microprocessor must be held high.
+The CPU board does not provide a power on or manual reset circuit.
+Consequently the code in EPROM will not execute reliably.
+Execution of this code in indicated by illumination of the SCO LED.
+
+Such a circuit was built on a spare connector with capacitor, resistor and normally open pushbutton switch.
+This is then plugged into the CPU PCB as a temporary test fixture.
+
+When the GUI daughter board is plugged in, it replaces the test fixture and this function is provided by the RUN switch. 
+This may operate reliably without the RC circuit, until it does not.
+
+#### Q Output Test
+
+The AT28C256 EEPROM was programmed with the blink.hex file. This tests output from the Q pin on the microprocessor, by blinking around once per second.
+
+The Q output can be monitored on the Tx invert/non-invert jumper, or by blinking of the Rx pin LED on the USB to serial converter.
+Alternatively by monitoring a pin on the daughterboard connector or a pin on the backplane using an oscilloscope.
+
+The LED on the daughter board flashes when Q is tested, when the daughter board is in place and the RUN switch is on.
+
+#### Serial Communications Test
+
 The AT28C256 EEPROM was programmed with the loopback.hex file. This tests serial comminications by echoing keypresses om an attached PC. 
 
 The Tera Term Windows aplication wa configured with settings Setup:Serial Port 600 baud, 8 bit. parity mark and 1 stop bit. 
