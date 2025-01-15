@@ -25,7 +25,7 @@ The main puzzle was getting the various jumpers set correcly for memory location
 ![memory map](https://github.com/user-attachments/assets/46a9924d-6826-4a16-9c2e-f648abba5d77)
 
 
-### CPU Testing
+### CPU PCB Testing
 
 For these tests to work, the /CLEAR pin on the microprocessor must be held high.
 The CPU board does not provide a power on or manual reset circuit.
