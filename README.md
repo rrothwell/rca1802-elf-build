@@ -29,8 +29,8 @@ The main puzzle was getting the various jumpers set correcly for memory location
 
 For these tests to work, the /CLEAR pin on the microprocessor must be held high.
 The CPU board does not provide a power on or manual reset circuit.
-Consequently the code in EPROM will not execute reliably.
-Execution of this code in indicated by illumination of the SCO LED.
+Consequently the code in EPROM will not execute reliably. 
+Execution of this code is indicated by illumination of the SCO LED.
 
 Such a circuit was built on a spare connector with capacitor, resistor and normally open pushbutton switch.
 This is then plugged into the CPU PCB as a temporary test fixture.
