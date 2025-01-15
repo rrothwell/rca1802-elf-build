@@ -31,9 +31,12 @@ For these tests to work, the /CLEAR pin on the microprocessor must be held high.
 The CPU board does not provide a power on or manual reset circuit.
 Consequently the code in EPROM will not execute reliably. 
 Execution of this code is indicated by illumination of the SCO LED.
+![ELF-testing](https://github.com/user-attachments/assets/d979af2e-3055-44c2-a781-50e61ab95f76)
 
 Such a circuit was built on a spare connector with capacitor, resistor and normally open pushbutton switch.
 This is then plugged into the CPU PCB as a temporary test fixture.
+
+![elf-test-fixture](https://github.com/user-attachments/assets/1a38d300-b156-45c5-8b62-1937cb348ed5)
 
 When the GUI daughter board is plugged in, it replaces the test fixture and this function is provided by the RUN switch. 
 This may operate reliably without the RC circuit, until it does not.
