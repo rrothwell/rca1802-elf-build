@@ -16,6 +16,7 @@ Many of the IC's were purchased via a kit sold on eBay. The kit is no longer ava
 ### CPU PCB
 
 The CPU board is asembled with minor variations to allow for component availablity. In particlar the rectangular 1MHz oscillator can was substituted with a square can version by mutilating some turned pin strip and bridging the pins underneath with soldered fine wire. 
+
 ![oscillator can mod](https://github.com/user-attachments/assets/b8bdb12a-2c62-495b-834b-8651e8762d8e)
 
 Power was supplied via a common USB to serial converter. Ensure the jumper on the convert is set to supply 5V. The board volatege should be measured to be around 4.9 volts.
@@ -31,6 +32,7 @@ For these tests to work, the /CLEAR pin on the microprocessor must be held high.
 The CPU board does not provide a power on or manual reset circuit.
 Consequently the code in EPROM will not execute reliably. 
 Execution of this code is indicated by illumination of the SCO LED.
+
 ![ELF-testing](https://github.com/user-attachments/assets/d979af2e-3055-44c2-a781-50e61ab95f76)
 
 Such a circuit was built on a spare connector with capacitor, resistor and normally open pushbutton switch.
@@ -55,6 +57,7 @@ The LED on the daughter board flashes when Q is tested, when the daughter board 
 The AT28C256 EEPROM was programmed with the loopback.hex file. This tests serial comminications by echoing keypresses om an attached PC. 
 
 The Tera Term Windows aplication wa configured with settings Setup:Serial Port 600 baud, 8 bit. parity mark and 1 stop bit. 
+
 ![COM9 - Tera Term VT 12_01_2025 5_26_33 PM](https://github.com/user-attachments/assets/ac78f7d0-f8a7-40f6-b2cb-c1115c2d62a1)
 
 The USB to serial converter was setup with 4 lines, Gnd, Rx, Tx and Vcc. The Rx and Tx lines crossover, so: Tx <--> Rx and Rx <--> Tx. This can be verifies by tapping a key and checking that the Tx LED on the converter flashes.
